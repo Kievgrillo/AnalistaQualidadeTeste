@@ -5,7 +5,7 @@ CONSIDERAÇÕES DO CANDIDATO
 Instruções para rodar a aplicação
 
 -visual studio 2019
--sqlserver vinculado na visual studio
+-sqlserver vinculado na visual studio (Enable-migrations e alteraçãe na pasta migrations para true) e (update-database, para criação do banco do sqlServer.)
 -set a project na aplicação e rodar o IIS Express (Google chrome)
 - quando a aplicação aparecer, der alguma erro de cara, verificar a URL, se caso tiver algum
 caminho nela além do local, retirar esse caminho (bug do vs) e deixar somente o local ex: https://localhost:44304/,
