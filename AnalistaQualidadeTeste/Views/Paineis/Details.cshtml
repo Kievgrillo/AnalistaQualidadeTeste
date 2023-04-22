@@ -1,0 +1,56 @@
+﻿@model AnalistaQualidadeTeste.Models.Painel
+
+@{
+    ViewBag.Title = "Detalhes da Tarefa";
+}
+
+<h2>Gestão de Detalhes</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prioridade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prioridade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataAbertura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataAbertura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Responsavel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Responsavel)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", null, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-primary" })
+</p>
